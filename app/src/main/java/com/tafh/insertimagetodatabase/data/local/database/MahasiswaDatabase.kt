@@ -4,10 +4,13 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import com.tafh.insertimagetodatabase.data.local.dao.MahasiswaDao
 import com.tafh.insertimagetodatabase.model.Mahasiswa
+import com.tafh.insertimagetodatabase.utils.Converter
 
 @Database(entities = [Mahasiswa::class], version = 1, exportSchema = false)
+@TypeConverters(Converter::class)
 abstract class MahasiswaDatabase : RoomDatabase(){
 
     abstract fun mahasiswaDao(): MahasiswaDao

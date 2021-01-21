@@ -13,7 +13,7 @@ interface MahasiswaDao {
     @Query("SELECT * FROM mahasiswa_table ORDER BY id ASC")
     fun getAllMahasiswa(): LiveData<List<Mahasiswa>>
 
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertMahasiswa(mahasiswa: Mahasiswa)
 
 }
