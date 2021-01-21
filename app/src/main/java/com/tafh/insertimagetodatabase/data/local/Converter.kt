@@ -1,4 +1,4 @@
-package com.tafh.insertimagetodatabase.utils
+package com.tafh.insertimagetodatabase.data.local
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

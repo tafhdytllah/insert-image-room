@@ -5,7 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import com.tafh.insertimagetodatabase.data.local.database.MahasiswaDatabase
-import com.tafh.insertimagetodatabase.model.Mahasiswa
+import com.tafh.insertimagetodatabase.data.local.entity.Mahasiswa
 import com.tafh.insertimagetodatabase.repository.MahasiswaRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

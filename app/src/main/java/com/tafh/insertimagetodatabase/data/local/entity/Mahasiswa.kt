@@ -1,4 +1,4 @@
-package com.tafh.insertimagetodatabase.model
+package com.tafh.insertimagetodatabase.data.local.entity
 
 import android.graphics.Bitmap
 import androidx.room.Entity

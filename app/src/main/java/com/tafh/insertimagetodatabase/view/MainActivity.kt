@@ -1,4 +1,4 @@
-package com.tafh.insertimagetodatabase.ui
+package com.tafh.insertimagetodatabase.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

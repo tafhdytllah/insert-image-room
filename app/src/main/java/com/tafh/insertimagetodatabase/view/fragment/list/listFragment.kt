@@ -1,9 +1,8 @@
-package com.tafh.insertimagetodatabase.ui.fragment.list
+package com.tafh.insertimagetodatabase.view.fragment.list
 
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -14,15 +13,11 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import coil.ImageLoader
 import coil.request.ImageRequest
-import coil.request.SuccessResult
-import com.tafh.insertimagetodatabase.adapter.MahasiswaAdapter
+import com.tafh.insertimagetodatabase.view.adapter.MahasiswaAdapter
 import com.tafh.insertimagetodatabase.databinding.FragmentListBinding
-import com.tafh.insertimagetodatabase.model.Mahasiswa
+import com.tafh.insertimagetodatabase.data.local.entity.Mahasiswa
 import com.tafh.insertimagetodatabase.viewmodel.MahasiswaViewModel
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
-import kotlin.math.log
 
 class listFragment : Fragment() {
 

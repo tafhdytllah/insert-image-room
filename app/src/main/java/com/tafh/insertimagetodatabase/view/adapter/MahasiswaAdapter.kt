@@ -1,4 +1,4 @@
-package com.tafh.insertimagetodatabase.adapter
+package com.tafh.insertimagetodatabase.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,7 +7,7 @@ import coil.load
 import coil.transform.CircleCropTransformation
 import com.tafh.insertimagetodatabase.R
 import com.tafh.insertimagetodatabase.databinding.ItemMahasiswaBinding
-import com.tafh.insertimagetodatabase.model.Mahasiswa
+import com.tafh.insertimagetodatabase.data.local.entity.Mahasiswa
 
 class MahasiswaAdapter : RecyclerView.Adapter<MahasiswaAdapter.MahasiswaViewHolder>() {
 

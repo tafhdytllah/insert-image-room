@@ -6,8 +6,8 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.tafh.insertimagetodatabase.data.local.dao.MahasiswaDao
-import com.tafh.insertimagetodatabase.model.Mahasiswa
-import com.tafh.insertimagetodatabase.utils.Converter
+import com.tafh.insertimagetodatabase.data.local.entity.Mahasiswa
+import com.tafh.insertimagetodatabase.data.local.Converter
 
 @Database(entities = [Mahasiswa::class], version = 1, exportSchema = false)
 @TypeConverters(Converter::class)
